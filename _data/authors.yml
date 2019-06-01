@@ -6,7 +6,7 @@ Brokencoms:
 Park Jonghyeon:
   name        : "Park, Jonghyeon"
   bio         : ""
-  avatar      : "/assets/img/author/parkjonghyeon.png"
+  avatar      : "/assets/img/authors/parkjonghyeon.png"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
