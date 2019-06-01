@@ -1,0 +1,16 @@
+Brokencoms:
+  name        : "Brokencoms"
+  bio         : ""
+  avatar      : "/assets/img/profile.png"
+
+Park Jonghyeon:
+  name        : "Park, Jonghyeon"
+  bio         : ""
+  avatar      : "/assets/img/author/parkjonghyeon.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:hello@ho9.me"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://ho9.me"
