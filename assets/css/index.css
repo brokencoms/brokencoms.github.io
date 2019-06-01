@@ -1,9 +1,6 @@
 * {
     font-family: 'Noto Sans KR', sans-serif;
 }
-body {
-    background-color: #f0f0f0;
-}
 a {
     color: #383838;
     text-decoration: none;
@@ -11,6 +8,11 @@ a {
 }
 a:hover, a:focus {
     color: #181818
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: bold;
 }
 
 .bg-color {
@@ -38,13 +40,6 @@ a:hover, a:focus {
     text-align: center;
     height: 100vh;
 }
-.bc-hero-footer {
-    position: absolute;
-    bottom: 20px;
-}
-.bc-hero-footer p {
-    margin: 0;
-}
 
 .bc-backarrow {
     margin: 0;
@@ -57,6 +52,33 @@ a:hover, a:focus {
 .bc-document {
     background-color: #fff;
     padding-bottom: 15px;
+}
+
+input.search {
+    width: 30vw;
+    height: 2.5vh;
+    padding: 20px;
+    background-color: #fff;
+    border: 0;
+    border-bottom: 4px solid #8a8a8a;
+    color: #8a8a8a;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    transition: .5s ease;
+    position: relative;
+    outline: none;
+}
+input.search:hover, input.search:focus {
+    background-color: rgba(256, 256, 256, 0.4);
+    color: #181818;
+    border-bottom-color: #181818;
+    transition: .5s ease;
+}
+@media (max-width: 768px) {
+    input.search:hover, input.search:focus {
+        width: 70vw;
+        transition: .5s ease;
+    }
 }
 
 
