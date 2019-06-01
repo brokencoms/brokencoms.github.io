@@ -3,6 +3,7 @@ title: "수능 카운터 rise는 무엇입니까?"
 date: 2019-06-01 23:03:00
 categories: web-local
 tags: web web-local website
+author: Park Jonghyeon
 ---
 
 인강실 또는 본교 몇몇 교실에서 [rise란 이름의 수능 카운터](riseme.page)가 브라우저 시작페이지로 설정되어있는 것을 확인할 수 있습니다.
