@@ -1,8 +1,8 @@
 ---
 title: "수능 카운터 rise는 무엇입니까?"
 date: 2019-06-01 23:03:00
-categories: web-local
-tags: web web-local website
+categories: website
+tags: website sat
 author: Park Jonghyeon
 ---
 
