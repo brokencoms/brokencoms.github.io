@@ -5,8 +5,9 @@ categories: website
 tags: website sat
 author: Park Jonghyeon
 ---
+[![](https://img.shields.io/badge/%EC%A0%81%EC%9A%A9%20%EB%B2%94%EC%9C%84-%EC%88%AD%EB%8D%95%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90-828BFF.svg)](/what-is-range-badge/)
 
-인강실 또는 본교 몇몇 교실에서 [rise란 이름의 수능 카운터](riseme.page)가 브라우저 시작페이지로 설정되어있는 것을 확인할 수 있습니다.
+생활관 인강실 또는 본교 몇몇 교실에서 [rise란 이름의 수능 카운터](riseme.page)가 브라우저 시작페이지로 설정되어있는 것을 확인할 수 있습니다.
 
 본 수능 카운터는 2018년 3분기, 수험생을 독려하기 위해 제작한 [hello-2019-sat](https://kpjhg0124.github.io/hello-2019-sat/)를 리팩토링한것입니다.  
 브라우저 설정에서 브라우저 시작페이지를 수정할 수 있으며, 해당 설정에서 이미 이 페이지를 시작페이지로 지정한 브라우저를 초기값으로 되돌리거나 이 페이지를 시작페이지로 지정할 수 있습니다.
