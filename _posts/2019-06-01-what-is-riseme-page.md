@@ -1,8 +1,8 @@
 ---
 title: "수능 카운터 rise는 무엇입니까?"
 date: 2019-06-01 23:03:00
-categories: website
-tags: website sat
+categories: web
+tags: web
 author: Park Jonghyeon
 ---
 [![](https://img.shields.io/badge/%EC%A0%81%EC%9A%A9%20%EB%B2%94%EC%9C%84-%EC%88%AD%EB%8D%95%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90-828BFF.svg)](/what-is-range-badge/)
