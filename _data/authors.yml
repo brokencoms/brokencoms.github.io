@@ -14,3 +14,13 @@ Park Jonghyeon:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://ho9.me"
+
+Kim Jaehwi:
+  name        : "Kim Jaehwi"
+  bio         : ""
+  avatar      : "/assets/img/profile.png"
+  
+Kim Dohyeon:
+  name        : "Kim Dohyeon"
+  bio         : ""
+  avatar      : "/assets/img/profile.png"
