@@ -5,6 +5,7 @@ categories: program
 tags: program office license
 author: Park Jonghyeon
 ---
+[![](https://img.shields.io/badge/%EC%A0%81%EC%9A%A9%20%EB%B2%94%EC%9C%84-%EB%B3%B4%ED%8E%B8%EC%A0%81-brightgreen.svg)](/what-is-range-badge/)
 
 이따금 파워포인트, 엑셀, 워드와 같은 Microsoft Office 프로그램을 실행하면 다음과 같은 문구가 나타나며 프로그램이 종료되는 현상을 확인할 수 있습니다.
 
