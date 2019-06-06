@@ -13,5 +13,6 @@ author: Park Jonghyeon
 대부분의 문제는 이 확장 프로그램이 실행중일때 발생합니다.
 
 ## 해결
-![](/assets/img/posts/internet-is-slow-in-chrome/2019-06-06%20140916.png)  
+![](/assets/img/posts/internet-is-slow-in-chrome/2019-06-06%20140916.png)
+
 널리 추가된 확장 프로그램은 TouchVPN으로, 위와 같은 모습입니다. `Stop` 버튼을 눌러 프로그램 실행을 중지하십시오.
