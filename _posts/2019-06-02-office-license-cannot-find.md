@@ -42,6 +42,7 @@ Windows Installer 서비스가 중지되어 오피스 프로그램이 인증절�
 ![](/assets/img/posts/office-license-cannot-find/2019-06-02 09;24;15.PNG)
 
 ### Microsoft Office 라이선스가 삭제되었습니다.
+[![](https://img.shields.io/badge/%EC%A0%81%EC%9A%A9%20%EB%B2%94%EC%9C%84-%EC%88%AD%EB%8D%95%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90-828BFF.svg)](/what-is-range-badge/)
 
 종종 Microsoft Office 라이선스가 삭제되어 이러한 문제가 나타나는 것을 볼 수 있습니다. 그 경우 담당 선생님으로부터 학교가 구매한 프로그램 라이선스를 받거나, 문제 해결을 요청할 수 있습니다.  
 학교에서 라이선스를 담당하시는 선생님은 [여기](/sd-technical-support)에서 확인하실 수 있습니다.
