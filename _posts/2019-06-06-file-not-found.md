@@ -19,7 +19,7 @@ author : Kim Jaehwi
 파일 다운로드시 보편적으로 사용자의 다운로드 폴더에 저장됩니다.
 
 파일이 다운로드 폴더에 존재하지 않다면 파일 탐색기 우측 상단에 존재하는 검색바에서 검색하십시오.
-![http://windows.funnycom.net/wp-content/uploads/sites/6/2015/10/win10-379-1.jpg]
+![파일위치](http://windows.funnycom.net/wp-content/uploads/sites/6/2015/10/win10-379-1.jpg)
 검색 시 검색한 단어가 들어 있는 모든 파일이 검색됩니다.
 
 만일 상세하게(수정한 날짜, 종류, 크기, 기타 등등)을 검색하고 싶다면 검색바를 누르고 좌측 상단의 검색 도구 - 검색을 눌러서 변경하십시오.
