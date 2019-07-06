@@ -20,22 +20,22 @@
         "easy" : {
             "title" : "쉬운 해결 난이도",
             "tag" : "쉬움",
-            "description" : ""
+            "description" : "이 사항은 매우 쉽습니다. 직접 해보세요."
         },
         "medium" : {
             "title" : "중간 해결 난이도",
             "tag" : "중간",
-            "description" : ""
+            "description" : "다소 난이도가 있다고 느낄 수 있습니다. 하지만 풀어써서 복잡해보인다는것만 알아두세요."
         },
         "hard" : {
             "title" : "어려운 해결 난이도",
             "tag" : "어려움",
-            "description" : ""
+            "description" : "이 문제는 해결하기 꽤 복잡합니다. 글로 풀어쓰기에 무리가 있다고 판단할 경우 해결 방법을 첨부하지 않을 수도 있습니다."
         },
         "expert" : {
             "title" : "전문가 수준 해결 난이도",
             "tag" : "전문가",
-            "description" : ""
+            "description" : "당장 컴퓨터 전원을 끄고 가까운 컴퓨터 전문가의 조언을 구하십시오."
         }
     }
 }

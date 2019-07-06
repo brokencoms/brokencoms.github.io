@@ -15,7 +15,7 @@ author: Park Jonghyeon
 해결
 ----
 
-[여기로 접속해서 사이트 하단의 프로그램을 다운받고 실행합니다.](http://www.dnsoft.net/web/spt/prdtAppView.do?com_bbm_seq=10145)
+[여기로 접속해서 사이트 하단의 프로그램을 다운받고 실행한 후](http://www.dnsoft.net/web/spt/prdtAppView.do?com_bbm_seq=10145) 컴퓨터를 재시작합니다.
 
 ![](/assets/img/posts/office-license-cannot-find/2019-07-07 00;39;16.PNG)  
 위 링크로 접속해서 아래로 스크롤을 내립니다.
