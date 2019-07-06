@@ -2,11 +2,13 @@
     "range" : {
         "common" : {
             "title" : "보편적",
+            "tag" : "보편적",
             "description" : "이 문서는 보편적인 내용을 다루고 있습니다.",
             "color" : ""
         },
         "sdok" :{
             "title" : "숭덕고등학교에 해당",
+            "tag" : "숭덕고등학교",
             "description" : "이 문서는 숭덕고등학교와 관련된 내용을 다루고 있습니다. \n내부 정책, 정보화기기 현황, 사용 패턴에 따라 특수성을 띄는 내용이 담겨있을 수 있습니다.",
             "color" : ""
         }
@@ -14,6 +16,7 @@
     "difficulty" : {
         "easy" : {
             "title" : "쉬움",
+            "tag" : "쉬움",
             "description" : "",
             "color" : ""
         }
