@@ -1,5 +1,10 @@
 Brokencoms
 ====
+![](https://img.shields.io/badge/coms-broken-red.svg)
+![](https://img.shields.io/badge/life-not%20found-red.svg)
+![](https://img.shields.io/badge/time-not%20found-red.svg)
+![](https://img.shields.io/badge/mental-not%20found-red.svg)
+
 
 > 아무것도 안했는데, 고장났습니다.
 
