@@ -7,9 +7,11 @@
 }
 .is-easy, .tag.is-easy {
     background-color: #80e3ff;
+    color: #4a4a4a;
 }
 .is-medium, .tag.is-medium {
     background-color: #73ffd0;
+    color: #4a4a4a;
 }
 .is-hard, .tag.is-hard {
     background-color: #e88c5f;
