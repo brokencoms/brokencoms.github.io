@@ -1,21 +1,17 @@
 {% if page.difficulty %}
-<div class="control">
+<div class="control difficulty">
   <div class="tags has-addons">
     <span class="tag is-dark">난이도</span>
-    <span class="tag" style="background-color: {{ site.data.tag.difficulty[page.difficulty].color }};">
-      {{ site.data.tag.difficulty[page.difficulty].tag }}
-    </span>
+    <span class="tag {{ page.difficulty }}">{{ site.data.tag.difficulty[page.difficulty].tag }}</span>
   </div>
 </div>
 {% endif %}
 
 {% if page.range %}
-<div class="control">
+<div class="control range">
   <div class="tags has-addons">
     <span class="tag is-dark">적용 범위</span>
-    <span class="tag" style="background-color: {{ site.data.tag.range[page.range].color }};">
-      {{ site.data.tag.range[page.range].tag }}
-    </span>
+    <span class="tag {{ page.range }}">{{ site.data.tag.range[page.range].tag }}</span>
   </div>
 </div>
 {% endif %}

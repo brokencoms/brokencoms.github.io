@@ -1,3 +1,28 @@
 .page__hero--overlay {
     color: #fff;
 }
+
+.difficulty, .range {
+    color: #fff;
+}
+.difficulty .common {
+    background-color: #44cc11;
+}
+.difficulty .sdok {
+    background-color: #828bff;
+}
+.difficulty .dormitory {
+    background-color: #769de8;
+}
+.range .easy {
+    background-color: #80e3ff;
+}
+.range .medium {
+    background-color: #73ffd0;
+}
+.range .hard {
+    background-color: #e88c5f;
+}
+.range .expert {
+    background-color: #e8645f;
+}
