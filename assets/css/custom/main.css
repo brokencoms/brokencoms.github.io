@@ -5,24 +5,24 @@
 .tag.content, .notification.content {
     color: #fff;
 }
-.is-easy {
+.is-easy, .tag.is-easy {
     background-color: #80e3ff;
 }
-.is-medium {
+.is-medium, .tag.is-medium {
     background-color: #73ffd0;
 }
-.is-hard {
+.is-hard, .tag.is-hard {
     background-color: #e88c5f;
 }
-.is-expert {
+.is-expert, .tag.is-expert {
     background-color: #e8645f;
 }
-.is-common {
+.is-common, .tag.is-common {
     background-color: #44cc11;
 }
-.is-sdok {
+.is-sdok, .tag.is-sdok {
     background-color: #828bff;
 }
-.is-dormitory {
+.is-dormitory, .tag.is-dormitory {
     background-color: #769de8;
 }
