@@ -10,10 +10,5 @@ $sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Noto Sans KR", "Segoe
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-html {
-  font-size: 16px;
-}
-
-.page__title {
-    line-height: 1.6;
-}
+@import "/assets/css/custom/main.css";
+@import "/assets/css/custom/tag.css";
