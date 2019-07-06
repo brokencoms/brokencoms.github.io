@@ -6,12 +6,10 @@
     color: #fff;
 }
 .is-easy, .tag.is-easy {
-    background-color: #80e3ff;
-    color: #4a4a4a;
+    background-color: #49c5e7;
 }
 .is-medium, .tag.is-medium {
-    background-color: #73ffd0;
-    color: #4a4a4a;
+    background-color: #3be2aa;
 }
 .is-hard, .tag.is-hard {
     background-color: #e88c5f;

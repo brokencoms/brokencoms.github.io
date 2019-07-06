@@ -1,5 +1,5 @@
 ---
-title: "글 첫머리의 적용 범위 마크는 무엇입니까?"
+title: "(legacy) 글 첫머리의 적용 범위 마크는 무엇입니까?"
 permalink: /what-is-range-badge/
 author_profile: true
 categories: sdok

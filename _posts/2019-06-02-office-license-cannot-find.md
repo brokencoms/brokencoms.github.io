@@ -4,7 +4,7 @@ date: 2019-06-02 09:10:00
 categories: software
 tags: software office
 difficulty: easy
-range: common
+range: sdok
 author: Park Jonghyeon
 ---
 
@@ -12,38 +12,24 @@ author: Park Jonghyeon
 
 > Microsoft Office에서 이 응용 프로그램의 라이선스를 찾지 못했습니다. 복구를 시도했지만 실패했거나 취소되었습니다. Microsoft Office가 종료됩니다.
 
-이 문제는 다양한 원인으로 나타날 수 있습니다.
-
 해결
 ----
-1. [Windows Installer 서비스가 비활성화되었습니다.](#windows-installer-서비스가-비활성화되었습니다)
-1. [Microsoft Office 라이선스가 삭제되었습니다](#microsoft-office-라이선스가-삭제되었습니다)
 
-### Windows Installer 서비스가 비활성화되었습니다.
+[여기로 접속해서 사이트 하단의 프로그램을 다운받고 실행합니다.](http://www.dnsoft.net/web/spt/prdtAppView.do?com_bbm_seq=10145)
 
-Windows Installer 서비스가 중지되어 오피스 프로그램이 인증절차를 진행하지 못하는 것이 가장 잘 알려진 원인으로, 대부분의 상황은 이 문제로 인해 발생한 경우가 많습니다.
+![](/assets/img/posts/office-license-cannot-find/2019-07-07 00;39;16.PNG)  
+위 링크로 접속해서 아래로 스크롤을 내립니다.
 
-제대로 작동하지 않는 서비스를 복구시키는 방법은 크게 두가지가 있습니다.
+![](/assets/img/posts/office-license-cannot-find/2019-07-07 00;44;35.PNG)  
+파일을 다운로드받고 파일을 엽니다.
 
-1. 정상 모드로 Windows 시작
-1. Windows Installer 서비스 상태 활성화
+![](/assets/img/posts/office-license-cannot-find/2019-07-07 00;41;34.PNG)  
+사진과 같이 나타나면 ①, ② 순서대로 클릭하여 압축을 해제합니다.
 
-* 상대적으로 1번 해결책이 더 간단합니다.
+![](/assets/img/posts/office-license-cannot-find/2019-07-07 00;43;15.PNG)  
+사진과 같이 나타나면 "풀기" 버튼을 클릭하여 압축을 해제합니다.
 
-#### 정상 모드로 Windows 시작
-1. Windows 키 + R 을 눌러 실행 창을 엽니다.
-1. "msconfig"를 입력하고 Enter키를 눌러 msconfig.exe 파일을 실행합니다.
-1. 일반 탭에서 "정상 모드(N)"을 선택하고 확인버튼을 눌러 설정을 저장합니다.
-![](/assets/img/posts/office-license-cannot-find/2019-06-02 09;23;36.PNG)
+압축 해제된 프로그램을 실행합니다.
 
-#### Windows Installer 서비스 상태 활성화
-1. Windows 키 + R 을 눌러 실행 창을 엽니다.
-1. "msconfig"를 입력하고 Enter키를 눌러 msconfig.exe 파일을 실행합니다.
-1. 서비스 탭에서 Windows Installer를 찾아 이름 앞의 체크박스를 활성화하고 확인버튼을 눌러 설정을 저장합니다.
-![](/assets/img/posts/office-license-cannot-find/2019-06-02 09;24;15.PNG)
-
-### Microsoft Office 라이선스가 삭제되었습니다.
-[![](https://img.shields.io/badge/%EC%A0%81%EC%9A%A9%20%EB%B2%94%EC%9C%84-%EC%88%AD%EB%8D%95%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90-828BFF.svg)](/what-is-range-badge/)
-
-종종 Microsoft Office 라이선스가 삭제되어 이러한 문제가 나타나는 것을 볼 수 있습니다. 그 경우 담당 선생님으로부터 학교가 구매한 프로그램 라이선스를 받거나, 문제 해결을 요청할 수 있습니다.  
-학교에서 라이선스를 담당하시는 선생님은 [여기](/sd-technical-support)에서 확인하실 수 있습니다.
+----
+이 문제는 다양한 원인으로 나타날 수 있습니다. 이 내용은 숭덕고등학교 교내 상황에 맞춘 사항으로, 외부의 경우는 [이 문서](/office-license-cannot-find/)를 참조하십시오.

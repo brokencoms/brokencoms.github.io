@@ -3,9 +3,10 @@ title: "크롬에서 인터넷이 느립니다."
 date: 2019-06-06 14:01:00
 categories: internet
 tags: web ineternet software
+difficulty: easy
+range: dormitory
 author: Park Jonghyeon
 ---
-[![](https://img.shields.io/badge/%EC%A0%81%EC%9A%A9%20%EB%B2%94%EC%9C%84-%EC%88%AD%EB%8D%95%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90%20%EC%83%9D%ED%99%9C%EA%B4%80-769DE8.svg)](/what-is-range-badge/)
 
 이따금 남학생 생활관 인강실의 몇몇 컴퓨터에서 크롬으로 인터넷 접속 시, 페이지 로딩이 느린 것을 확인할 수 있습니다.
 
