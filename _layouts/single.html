@@ -35,12 +35,6 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {% if page.difficulty or page.range %}
-          {% if page.difficulty %}
-            {% assign difficulty = page.difficulty %}
-          {% endif %}
-          {% if page.range %}
-            {% assign range = page.range %}
-          {% endif %}
           {% include init_tag.html %}
         {% endif %}
         {% if page.toc %}
