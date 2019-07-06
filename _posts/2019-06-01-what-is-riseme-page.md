@@ -6,7 +6,6 @@ tags: web
 range: sdok
 author: Park Jonghyeon
 ---
-[![](https://img.shields.io/badge/%EC%A0%81%EC%9A%A9%20%EB%B2%94%EC%9C%84-%EC%88%AD%EB%8D%95%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90-828BFF.svg)](/what-is-range-badge/)
 
 생활관 인강실 또는 본교 몇몇 교실에서 [rise란 이름의 수능 카운터](riseme.page)가 브라우저 시작페이지로 설정되어있는 것을 확인할 수 있습니다.
 

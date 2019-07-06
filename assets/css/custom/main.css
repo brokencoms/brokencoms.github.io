@@ -2,27 +2,27 @@
     color: #fff;
 }
 
-.difficulty .tag.content, .range .tag.content {
+.tag.content, .notification.content {
     color: #fff;
 }
-.difficulty .easy {
+.is-easy {
     background-color: #80e3ff;
 }
-.difficulty .medium {
+.is-medium {
     background-color: #73ffd0;
 }
-.difficulty .hard {
+.is-hard {
     background-color: #e88c5f;
 }
-.difficulty .expert {
+.is-expert {
     background-color: #e8645f;
 }
-.range .common {
+.is-common {
     background-color: #44cc11;
 }
-.range .sdok {
+.is-sdok {
     background-color: #828bff;
 }
-.range .dormitory {
+.is-dormitory {
     background-color: #769de8;
 }

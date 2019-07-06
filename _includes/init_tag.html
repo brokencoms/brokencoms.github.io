@@ -1,17 +1,34 @@
-{% if page.difficulty %}
-<div class="control difficulty">
-  <div class="tags has-addons">
-    <span class="tag is-dark">난이도</span>
-    <span class="tag content {{ page.difficulty }}">{{ site.data.tag.difficulty[page.difficulty].tag }}</span>
+<div class="field is-grouped is-grouped-multiline">
+  {% if page.difficulty %}
+  <div class="control difficulty">
+    <div class="tags has-addons">
+      <span class="tag is-dark">난이도</span>
+      <span class="tag content is-{{ page.difficulty }}">{{ site.data.tag.difficulty[page.difficulty].tag }}</span>
+    </div>
   </div>
+  {% endif %}
+
+  {% if page.range %}
+  <div class="control range">
+    <div class="tags has-addons">
+      <span class="tag is-dark">적용 범위</span>
+      <span class="tag content is-{{ page.range }}">{{ site.data.tag.range[page.range].tag }}</span>
+    </div>
+  </div>
+  {% endif %}
+</div>
+
+{% if page.difficulty %}
+<div class="notification content is-{{ page.difficulty }}">
+  <strong>{{ site.data.tag.difficulty[page.difficulty].title }}</strong><br>
+  {{ site.data.tag.difficulty[page.difficulty].description }}
 </div>
 {% endif %}
 
 {% if page.range %}
-<div class="control range">
-  <div class="tags has-addons">
-    <span class="tag is-dark">적용 범위</span>
-    <span class="tag content {{ page.range }}">{{ site.data.tag.range[page.range].tag }}</span>
-  </div>
+<div class="notification content is-{{ page.range }}">
+  <strong>{{ site.data.tag.range[page.range].title }}</strong><br>
+  {{ site.data.tag.range[page.range].description }}
 </div>
 {% endif %}
+
