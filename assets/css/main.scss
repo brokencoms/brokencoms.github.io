@@ -7,11 +7,11 @@ $sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Noto Sans KR", "Segoe
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css');
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
 @import "/assets/css/custom/main.css";
-@import "/assets/css/custom/tag.css";
 
 html {
   font-size: 16px;
