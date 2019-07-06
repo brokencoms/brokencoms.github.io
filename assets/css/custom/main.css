@@ -2,7 +2,7 @@
     color: #fff;
 }
 
-.difficulty, .range {
+.difficulty .tag.content, .range .tag.content {
     color: #fff;
 }
 .difficulty .easy {
