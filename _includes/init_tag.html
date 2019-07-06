@@ -2,7 +2,8 @@
 <div class="control">
   <div class="tags has-addons">
     <span class="tag is-dark">난이도</span>
-    <span class="tag is-success">{{ tag.range.[page.difficulty].tag }}</span>
+    {% assign type = page.difficulty}
+    <span class="tag is-success">{{ tag.range.[type].tag }}</span>
   </div>
 </div>
 {% endif %}
@@ -11,7 +12,8 @@
 <div class="control">
   <div class="tags has-addons">
     <span class="tag is-dark">적용 범위</span>
-    <span class="tag is-success">{{ tag.range.[page.range].tag }}</span>
+    {% assign type = page.range}
+    <span class="tag is-success">{{ tag.range.[type].tag }}</span>
   </div>
 </div>
 {% endif %}
