@@ -1,0 +1,17 @@
+{% if page.difficulty %}
+<div class="control">
+  <div class="tags has-addons">
+    <span class="tag is-dark">난이도</span>
+    <span class="tag is-success">{{ tag.range.{{ page.difficulty }} }}</span>
+  </div>
+</div>
+{% endif %}
+
+{% if page.range %}
+<div class="control">
+  <div class="tags has-addons">
+    <span class="tag is-dark">적용 범위</span>
+    <span class="tag is-success">{{ tag.range.{{ page.range }} }}</span>
+  </div>
+</div>
+{% endif %}
