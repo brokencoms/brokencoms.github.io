@@ -8,11 +8,11 @@ range: common
 author : Kim Dohyeon
 ---
 
-![](/assets/img/posts/taskbar-not-execute/1.png) 을 눌러도 작동하지 않습니다.
+![시작 버튼](/assets/img/posts/taskbar-not-execute/1.png) 을 눌러도 작동하지 않습니다.
 
 또는
 
-![](/assets/img/posts/taskbar-not-execute/2.png)  
+![시작 메뉴](/assets/img/posts/taskbar-not-execute/2.png)  
 의 전원 끄기 버튼이 눌리지 않습니다.
 
 해결
