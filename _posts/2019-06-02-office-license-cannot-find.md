@@ -10,6 +10,7 @@ author: Park Jonghyeon
 
 이따금 파워포인트, 엑셀, 워드와 같은 Microsoft Office 프로그램을 실행하면 다음과 같은 문구가 나타나며 프로그램이 종료되는 현상을 확인할 수 있습니다.
 
+![](/assets/img/posts/office-license-cannot-find/99852815-d3bb-4974-b005-b8f0bd4c98d8.png)  
 > Microsoft Office에서 이 응용 프로그램의 라이선스를 찾지 못했습니다. 복구를 시도했지만 실패했거나 취소되었습니다. Microsoft Office가 종료됩니다.
 
 해결
