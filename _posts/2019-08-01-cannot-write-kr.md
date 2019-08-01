@@ -17,5 +17,5 @@ author: Park Jonghyeon
 `가`는 현재 입력 언어를, 흰 네모 안의 `한`은 한국어 입력이 가능함을 의미합니다.
 
 ![](/assets/img/posts/cannot-write-kr/2.PNG)  
-위와 같이 나타나있다면, 키보드의 <img src="/assets/common/windows.svg" width="10px" height="10px"> + `스페이스바`를 동시에 누르거나 흰 네모를 클릭하여 입력기를 전환할 수 있습니다.
+위와 같이 나타나있다면, 키보드의 <img src="/assets/img/commons/windows.svg" width="10px" height="10px"> + `스페이스바`를 동시에 누르거나 흰 네모를 클릭하여 입력기를 전환할 수 있습니다.
 
