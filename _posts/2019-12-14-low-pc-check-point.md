@@ -22,5 +22,5 @@ author: Park Jonghyeon
 ![](./assets/img/posts/low-pc-check-point/주석 2019-12-17 191526.png)  
 `추가 정보`를 누르면 생기는 실행 버튼을 누릅니다.
 
-![](./assets/img/posts/low-pc-check-point/주석 2019-12-17 191522.png)
+![](./assets/img/posts/low-pc-check-point/주석 2019-12-17 191522.png)  
 `시작` 버튼을 누릅니다.
