@@ -33,17 +33,17 @@ author: Park Jonghyeon
 ### 기능 활성화
 SMB 1.0은 `Windows 기능 켜기/끄기`를 통해 활성화할 수 있습니다.
 
-![](./assets/img/posts/connect-printer-to-pc-using-smb/2020-02-06 001111.png)  
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-06 001111.png)  
 <img src="/assets/img/commons/windows.svg" width="10px" height="10px"> + `R` 을 동시에 눌러 실행창을 열고 `control`을 실행합니다.  
 
-![](./assets/img/posts/connect-printer-to-pc-using-smb/2020-02-06 001259.png)  
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-06 001259.png)  
 나타난 제어판 창에서 `프로그램`을 누르고 이어서 나타나는 화면의 `Windows 기능 켜기/끄기`를 누릅니다.  
 
-![](./assets/img/posts/connect-printer-to-pc-using-smb/2020-02-06 001319.png)  
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-06 001319.png)  
 나타난 Windows 기능 창에서 `SMB 1.0/CIFS 파일 공유 지원`의 체크박스를 활성화하고 `확인`버튼을 누릅니다.  
 만약 오랫동안 `잠시 기다려 주십시오.`라는 문구가 나타나며 목록이 나타나지 않는다면 컴퓨터 시스템의 중요한 부분이 비활성화 되어있을 수 있습니다.  
 
-![](./assets/img/posts/connect-printer-to-pc-using-smb/2020-02-06 001429.png.png)  
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-06 001429.png.png)  
 안내에 따라 컴퓨터를 다시 시작 합니다.  
 
 ## 컴퓨터 보안 정책 수정
