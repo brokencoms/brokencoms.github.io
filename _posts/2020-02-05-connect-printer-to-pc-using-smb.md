@@ -3,7 +3,7 @@ title: "신도리코 스캐너를 PC와 연결하려고 합니다.(SMB 방식)"
 date: 2020-02-05 23:54:00
 categories: computer
 tags: hardware software driver scan printer
-difficulty: medium
+difficulty: normal
 range: sdok
 author: Park Jonghyeon
 ---
