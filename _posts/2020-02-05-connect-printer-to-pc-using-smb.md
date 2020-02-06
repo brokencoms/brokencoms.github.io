@@ -44,12 +44,33 @@ SMB 1.0은 `Windows 기능 켜기/끄기`를 통해 활성화할 수 있습니�
 만약 오랫동안 `잠시 기다려 주십시오.`라는 문구가 나타나며 목록이 나타나지 않는다면 컴퓨터 시스템의 중요한 부분이 비활성화 되어있을 수 있습니다.  
 이 경우, [부록의 Windows 기능 창이 나타나지 않습니다](#windows-기능-창이-나타나지-않습니다)를 참조하세요.
 
-![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-06 001429.png.png)  
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-06 001429.png)  
 안내에 따라 컴퓨터를 다시 시작 합니다.  
 
 ## 컴퓨터 보안 정책 수정
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-06 184903.png)  
+작업 표시줄의 네트워크 아이콘을 우클릭하고 `네트워크 및 인터넷 설정 열기`를 누릅니다.  
+
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-06 184947.png)  
+이어서 나타나는 창에서 `네트워크 및 공유 센터`를 누릅니다.  
+
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-06 185149.png)  
+좌측의 `고급 공유 설정 변경`을 누릅니다.  
+
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-06 185326.png)  
+`게스트 또는 공용`의 `파일 및 프린터 공유` 설정을 `파일 및 프린터 공유 켜기`로 지정합니다.  
+
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-06 185432.png)  
+`모든 네트워크`의 `파일 공유 연결` 설정을 `40비트 또는 56비트 암호화를 사용하는 장치에 대해 파일 공유 사용`으로 지정하고 `암호로 보호된 공유` 설정을 `암호 보호 공유 끄기`로 지정하고 `변경 내용 저장`을 누릅니다.  
+
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-06 185149.png)  
+돌아온 `네트워크 및 공유센터` 창 좌측의 `Windows Defender 방화벽`을 누릅니다.  
+
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-06 185731.png)  
+
 ## 공유 폴더 등록
 ## 스캐너에 컴퓨터 등록
 ## 부록
 아래는 부록으로 특별한 사항이 아닌 이상 읽어보지 않아도 됩니다.  
+### 용어 정리
 ### Windows 기능 창이 나타나지 않습니다.
