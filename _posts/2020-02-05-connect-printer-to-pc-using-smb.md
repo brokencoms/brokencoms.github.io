@@ -62,6 +62,7 @@ SMB 1.0은 `Windows 기능 켜기/끄기`를 통해 활성화할 수 있습니�
 
 ![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-15 125259.png)  
 `모든 네트워크`의 설정을 아래와 같이 지정합니다.  
+
 | 설정 | 선택 |
 | ---- | ---- |
 | `공용 폴더 공유` | 네트워크 액세스 권한이 있는 모든 사용자가 공용 폴더의 파일을 읽고 쓸 수 있도록 공유 켜기 |
@@ -124,6 +125,7 @@ Chrome과 같은 인터넷 브라우저를 사용해 스캐너에 접속합니�
 | `사용자 ID` | Windows 사용자 이름 |
 | `암호` | Windows 사용자 암호. 없거나 암호 보호 공유를 비활성화했을 경우 공란 |
 
+컴퓨터 IP와 Windows 사용자 이름은 간단한 작업으로 확인할 수 있습니다. [컴퓨터 정보 확인](#컴퓨터-정보-확인) 문단을 참조하세요.
 
 ![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-15 101422.png)  
 등록을 완료합니다.  
@@ -132,3 +134,9 @@ Chrome과 같은 인터넷 브라우저를 사용해 스캐너에 접속합니�
 아래는 부록으로 특별한 사항이 아닌 이상 읽어보지 않아도 됩니다.  
 ### 용어 정리
 ### Windows 기능 창이 나타나지 않습니다.
+### 컴퓨터 정보 확인
+<img src="/assets/img/commons/windows.svg" width="10px" height="10px"> + `R` 을 동시에 눌러 실행창을 열고 `cmd`을 실행합니다.  
+
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-15 132343.png)  
+`ipconfig`를 입력합니다.  
+`IPv4 주소`를 컴퓨터 IP로 사용합니다.  
