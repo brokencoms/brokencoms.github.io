@@ -60,16 +60,74 @@ SMB 1.0은 `Windows 기능 켜기/끄기`를 통해 활성화할 수 있습니�
 ![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-06 185326.png)  
 `게스트 또는 공용`의 `파일 및 프린터 공유` 설정을 `파일 및 프린터 공유 켜기`로 지정합니다.  
 
-![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-06 185432.png)  
-`모든 네트워크`의 `파일 공유 연결` 설정을 `40비트 또는 56비트 암호화를 사용하는 장치에 대해 파일 공유 사용`으로 지정하고 `암호로 보호된 공유` 설정을 `암호 보호 공유 끄기`로 지정하고 `변경 내용 저장`을 누릅니다.  
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-15 125259.png)  
+`모든 네트워크`의 설정을 아래와 같이 지정합니다.  
+| 설정 | 선택 |
+| ---- | ---- |
+| `공용 폴더 공유` | 네트워크 액세스 권한이 있는 모든 사용자가 공용 폴더의 파일을 읽고 쓸 수 있도록 공유 켜기 |
+| `파일 공유 연결` | 40비트 또는 56비트 암호화를 사용하는 장치에 대해 파일 공유 사용 |
+| `암호로 보호된 공유` | 암호 보호 공유 켜기 |
+
+*`암호로 보호된 공유`의 경우 `암호 보호 공유 끄기`로 지정하면 암호 없이 스캔용으로 생성한 공유 폴더에 접근할 수 있으나, 연결에 문제가 발생하지는 않습니다.
 
 ![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-06 185149.png)  
 돌아온 `네트워크 및 공유센터` 창 좌측의 `Windows Defender 방화벽`을 누릅니다.  
 
 ![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-06 185731.png)  
+`Windows Defender 방화벽을 통해 앱 또는 기능 허용`을 누릅니다.  
+
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-15 100539.png)  
+`SMBDirect를 통한 파일 및 프린터 공유`를 찾아 `공용`을 허용합니다.   
 
 ## 공유 폴더 등록
+스캐너가 스캔할 파일을 컴퓨터에 저장하려면 공유 폴더를 생성하고 등록해야합니다.  
+
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-15 100619.png)  
+새 폴더를 생성합니다.
+
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-15 100707.png)  
+생성한 폴더를 우클릭해서 `속성`을 누른 후, 이어서 나타나는 창에서 `공유` 탭의 `고급 공유`를 누릅니다.  
+
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-15 100914.png)  
+이어서 나타나는 고급 공유 창에서 `선택할 폴더 공유(S)`를 체크하고 `공유 이름(H)`을 지정한 후 `주석(O)`의 `권한(P)` 버튼을 누릅니다.  
+
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-15 100933.png)  
+이어서 나타나는 사용 권한 창에서 `Everyone`을 선택하고 `Everyone의 사용 권한(P)`에서 `모든 권한`에 체크하고 `확인` 버튼을 누릅니다.  
+
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-15 101008.png)  
+돌아온 속성 창의 `네트워크 파일 및 폴더 공유`를 통해 공유 폴더 지정이 완료되었는지 확인합니다.  
+`네트워크 경로(N)`의 `\\(컴퓨터 이름)\(경로)`의 경로는 이후 스캐너에 컴퓨터를 등록할때 사용하기 때문에 미리 기억해두어야 합니다.
+
 ## 스캐너에 컴퓨터 등록
+
+
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-15 101213.png)  
+Chrome과 같은 인터넷 브라우저를 사용해 스캐너에 접속합니다.  
+
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-15 101249.png)  
+`수신지 등록` 탭으로 이동해 `새 등록` 버튼을 누릅니다.  
+
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-15 101304.png)  
+`SMB`를 선택합니다.  
+
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-15 125125.png)  
+필요한 정보들을 입력합니다. 입력해야 하는 정보들은 아래와 같습니다.  
+
+| 항목 | 내용 |
+| ---- | ---- |
+| `등록 번호` | `빈 번호를 사용` 선택 |
+| `이름` | 스캐너에서 표시할 컴퓨터 이름 |
+| `분류문자` `검색문자` | 스캐너에서 컴퓨터를 검색할때 사용하는 기준 |
+| `상용` | 선택 시 스캐너에서 컴퓨터를 검색하지 않아도 송신 대상 메인 화면에 나타남 |
+| `호스트 주소` | `호스트명 입력시, 체크하십시오.` 체크, 컴퓨터 IP 입력 |
+| `파일 경로` | [공유 폴더 등록](#공유-폴더-등록)에서 생성한 폴더의 네트워크 경로 |
+| `사용자 ID` | Windows 사용자 이름 |
+| `암호` | Windows 사용자 암호. 없거나 암호 보호 공유를 비활성화했을 경우 공란 |
+
+
+![](/assets/img/posts/connect-printer-to-pc-using-smb/2020-02-15 101422.png)  
+등록을 완료합니다.  
+
 ## 부록
 아래는 부록으로 특별한 사항이 아닌 이상 읽어보지 않아도 됩니다.  
 ### 용어 정리
